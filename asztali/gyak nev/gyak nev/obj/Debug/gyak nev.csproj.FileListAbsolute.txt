@@ -1,0 +1,7 @@
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\bin\Debug\gyak nev.exe.config
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\bin\Debug\gyak nev.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\bin\Debug\gyak nev.pdb
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\obj\Debug\gyak nev.csproj.AssemblyReference.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\obj\Debug\gyak nev.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\obj\Debug\gyak nev.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak nev\gyak nev\obj\Debug\gyak nev.pdb

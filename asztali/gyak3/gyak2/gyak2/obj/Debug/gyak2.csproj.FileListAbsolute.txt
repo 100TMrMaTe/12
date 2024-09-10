@@ -1,0 +1,7 @@
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\bin\Debug\gyak2.exe.config
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\bin\Debug\gyak2.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\bin\Debug\gyak2.pdb
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\obj\Debug\gyak2.csproj.AssemblyReference.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\obj\Debug\gyak2.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\obj\Debug\gyak2.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\gyak3\gyak2\gyak2\obj\Debug\gyak2.pdb
