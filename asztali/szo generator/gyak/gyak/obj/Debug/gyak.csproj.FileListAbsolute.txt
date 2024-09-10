@@ -1,0 +1,7 @@
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\bin\Debug\gyak.exe.config
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\bin\Debug\gyak.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\bin\Debug\gyak.pdb
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\obj\Debug\gyak.csproj.AssemblyReference.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\obj\Debug\gyak.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\obj\Debug\gyak.exe
+D:\munkakönyvtár\konyhasimate\12\asztali\szo generator\gyak\gyak\obj\Debug\gyak.pdb
