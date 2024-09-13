@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C08835A3-248C-4914-8308-590EE62E8322}|ConsoleApp1\\ConsoleApp1.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08835A3-248C-4914-8308-590EE62E8322}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08835A3-248C-4914-8308-590EE62E8322}|ConsoleApp1\\ConsoleApp1.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\consoleapp1\\consoleapp1\\kutya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08835A3-248C-4914-8308-590EE62E8322}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\kutya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "kutya.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\ConsoleApp1\\ConsoleApp1\\kutya.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\kutya.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\ConsoleApp1\\ConsoleApp1\\kutya.cs",
+              "RelativeToolTip": "ConsoleApp1\\kutya.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:44:12.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\objekt\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:43:47.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
