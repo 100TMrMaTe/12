@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="date" id="myDate" value="2000-05-05">
+
+        <p>Note that the default value is not affected when you change the value of the date field.</p>
+
+        <button type="button" onclick="myFunction()">Try it</button>
+        
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+            const x = document.getElementById("myDate");
+            let defaultVal = x.defaultValue;
+            let currentVal = x.value;
+            var date = defaultVal.split("-");
+                var day = date[0];
+                var month = date[1];
+                var year = date[2];
+            var date1 = defaultVal.split("-");
+                var day1 = date1[0];
+                var month1 = date1[1];
+                var year1 = date1[2];
+            document.getElementById("demo").innerHTML=year1-year;
+        
+        }
+        </script>
+    </form>
+</body>
+</html>
