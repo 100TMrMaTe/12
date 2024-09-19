@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <td id="egy" onclick="myfunction()"></td>
+        <td id="ket" onclick="myfunction1()"></td>
+        <td id="ha" onclick="myfunction2()"></td>
+    </table>
+    <script>
+        function getRandomInt(min, max) 
+            {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+
+        var computerResponse = getRandomInt(1, 3);
+        function myfunction()
+        {
+            if(computerResponse===1)
+                {
+                    document.getElementById("egy").style.backgroundColor="green"
+                }
+                else
+                {
+                    document.getElementById("egy").style.backgroundColor="red"
+                }
+            if(computerResponse===3)
+                {
+                    document.getElementById("ha").style.backgroundColor="green"
+                }
+                if(computerResponse===2)
+                {
+                    document.getElementById("ket").style.backgroundColor="green"
+                }
+        }
+        function myfunction1()
+        {
+            if(computerResponse===2)
+                {
+                    document.getElementById("ket").style.backgroundColor="green"
+                }
+                else
+                {
+                    document.getElementById("ket").style.backgroundColor="red"
+                }
+                if(computerResponse===1)
+                {
+                    document.getElementById("egy").style.backgroundColor="green"
+                }
+                if(computerResponse===3)
+                {
+                    document.getElementById("ha").style.backgroundColor="green"
+                }
+        }
+        function myfunction2()
+        {
+            if(computerResponse===3)
+                {
+                    document.getElementById("ha").style.backgroundColor="green"
+                }
+                else
+                {
+                    document.getElementById("ha").style.backgroundColor="red"
+                }
+            if(computerResponse===1)
+            {
+                document.getElementById("egy").style.backgroundColor="green"
+            }
+            if(computerResponse===2)
+            {
+                document.getElementById("ket").style.backgroundColor="green"
+            }
+        }
+   
+       
+    </script>
+</body>
+</html>
