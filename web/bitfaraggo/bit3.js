@@ -76,3 +76,14 @@ function valtozas()
         szam=1;
     }
 }
+let kattint=0;
+function nyomasMate()
+{
+    if(kattint==0)
+    {
+        var a=document.createElement("div");
+        a.setAttribute("id","nev");
+        a.innerHTML="bemutatkozo szoveg";
+        document.body.appendChild(a);
+    }
+}
