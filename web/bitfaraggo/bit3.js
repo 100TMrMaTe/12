@@ -19,40 +19,60 @@ function checkTime(i)
             return i;
         }
 
-        
+
 let szam= 0;
+
 function valtozas()
 {
 
-    const image = document.getElementById("kep");
+    
     if(szam==0)
     {
-        image.src= "kep1.jpg";
+        var image = document.createElement("img");
+        image.setAttribute('src', 'ady.jpg');
+        image.setAttribute('id', 'kep');
+        image.setAttribute( "display","block")
+        image.setAttribute( "margin-left","auto")
+        image.setAttribute( "margin-right","auto")
+        image.setAttribute('height', '400px');
+        image.setAttribute('width', '50px');
+        document.body.appendChild(image);
+        image.src= "ady.jpg";
         szam++;
     }
     else if(szam==1)
     {
-        image.src= "kep2.jpg";
+        document.getElementById("kep").src=kep.src.replace("ady.jpg","kep1.jpg")
         szam++;
     }
     else if(szam==2)
     {
-        image.src= "kep3.jpg";
+        document.getElementById("kep").src=kep.src.replace("kep1.jpg","kep2.jpg")
         szam++;
     }
     else if(szam==3)
     {
-        image.src= "kep4.jpg";
+        document.getElementById("kep").src=kep.src.replace("kep2.jpg","kep3.jpg")
         szam++;
     }
     else if(szam==4)
     {
-        image.src= "kep5.jpg";
+        document.getElementById("kep").src=kep.src.replace("kep3.jpg","kep4.jpg")
         szam++;
     }
     else if(szam==5)
     {
-        image.src= "sr1.jpg";
+        document.getElementById("kep").src=kep.src.replace("kep4.jpg","kep5.jpg")
         szam++;
+    }
+    else if(szam==6)
+    {
+        document.getElementById("kep").src=kep.src.replace("kep5.jpg","kep6.jpg")
+        szam++;
+    }
+    else if(szam==7)
+    {
+        document.getElementById("kep").src=kep.src.replace("kep6.jpg","ady.jpg")
+        szam=1;
     }
 }
