@@ -79,11 +79,71 @@ function valtozas()
 let kattint=0;
 function nyomasMate()
 {
+    let a=document.getElementById("bemutat")
     if(kattint==0)
     {
-        var a=document.createElement("div");
-        a.setAttribute("id","nev");
-        a.innerHTML="bemutatkozo szoveg";
-        document.body.appendChild(a);
+        a.innerHTML="szoveg";
+        kattint++;
+    }
+    else if(kattint==1)
+    {
+        a.innerHTML="";
+        kattint=0;
+    }
+}
+function nyomasMatyi()
+{
+    let a=document.getElementById("bemutat")
+    if(kattint==0)
+    {
+        a.innerHTML="ide";
+        kattint++;
+    }
+    else if(kattint==1)
+    {
+        a.innerHTML="";
+        kattint=0;
+    }
+}
+function nyomasAkos()
+{
+    let a=document.getElementById("bemutat")
+    if(kattint==0)
+    {
+        a.innerHTML="ide";
+        kattint++;
+    }
+    else if(kattint==1)
+    {
+        a.innerHTML="";
+        kattint=0;
+    }
+}
+function nyomasPepa()
+{
+    let a=document.getElementById("bemutat")
+    if(kattint==0)
+    {
+        a.innerHTML="ide";
+        kattint++;
+    }
+    else if(kattint==1)
+    {
+        a.innerHTML="";
+        kattint=0;
+    }
+}
+function nyomasAdy()
+{
+    let a=document.getElementById("bemutat")
+    if(kattint==0)
+    {
+        a.innerHTML="";
+        kattint++;
+    }
+    else if(kattint==1)
+    {
+        a.innerHTML="";
+        kattint=0;
     }
 }
