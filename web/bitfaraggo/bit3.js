@@ -34,7 +34,7 @@ function valtozas()
         image.setAttribute( "display","block")
         image.setAttribute( "margin-left","auto")
         image.setAttribute( "margin-right","auto")
-        image.setAttribute('height', '400px');
+        image.setAttribute('height', '600px');
         image.setAttribute('width', '50px');
         document.body.appendChild(image);
         image.src= "ady.jpg";
@@ -82,7 +82,7 @@ function nyomasMate()
     let a=document.getElementById("bemutat")
     if(kattint==0)
     {
-        a.innerHTML="szoveg";
+        a.innerHTML="Konyhási Máté vagyok, nem szeretem a humán tantárgyakat. Szeretek a Snowrener nevű játékkal játszani";
         kattint++;
     }
     else if(kattint==1)
@@ -96,7 +96,7 @@ function nyomasMatyi()
     let a=document.getElementById("bemutat")
     if(kattint==0)
     {
-        a.innerHTML="ide";
+        a.innerHTML="Holczer Mátyás vagyok, szeretek programozni,és Szeretek a Snowrener nevű játékkal játszani";
         kattint++;
     }
     else if(kattint==1)
@@ -110,7 +110,7 @@ function nyomasAkos()
     let a=document.getElementById("bemutat")
     if(kattint==0)
     {
-        a.innerHTML="ide";
+        a.innerHTML="Keszericze Ákos vagyok, szeretek kosarazni, és a barátaimmal lenni és a Snowrener nevű játékkal játszani";
         kattint++;
     }
     else if(kattint==1)
@@ -124,7 +124,7 @@ function nyomasPepa()
     let a=document.getElementById("bemutat")
     if(kattint==0)
     {
-        a.innerHTML="ide";
+        a.innerHTML="";
         kattint++;
     }
     else if(kattint==1)
