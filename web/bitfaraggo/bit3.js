@@ -39,41 +39,49 @@ function valtozas()
         document.body.appendChild(image);
         image.src= "ady.jpg";
         szam++;
+        image.scrollIntoView();
     }
     else if(szam==1)
     {
         document.getElementById("kep").src=kep.src.replace("ady.jpg","kep1.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==2)
     {
         document.getElementById("kep").src=kep.src.replace("kep1.jpg","kep2.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==3)
     {
         document.getElementById("kep").src=kep.src.replace("kep2.jpg","kep3.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==4)
     {
         document.getElementById("kep").src=kep.src.replace("kep3.jpg","kep4.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==5)
     {
         document.getElementById("kep").src=kep.src.replace("kep4.jpg","kep5.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==6)
     {
         document.getElementById("kep").src=kep.src.replace("kep5.jpg","kep6.jpg")
         szam++;
+        document.getElementById("kep").scrollIntoView();
     }
     else if(szam==7)
     {
         document.getElementById("kep").src=kep.src.replace("kep6.jpg","ady.jpg")
         szam=1;
+        document.getElementById("kep").scrollIntoView();
     }
 }
 let kattint=0;
@@ -135,15 +143,5 @@ function nyomasPepa()
 }
 function nyomasAdy()
 {
-    let a=document.getElementById("bemutat")
-    if(kattint==0)
-    {
-        a.innerHTML="";
-        kattint++;
-    }
-    else if(kattint==1)
-    {
-        a.innerHTML="";
-        kattint=0;
-    }
+    window.open("https://ady-nagyatad.hu/")
 }
