@@ -58,7 +58,7 @@ function hozzaad(){
     if (adatok.length > 0){
         kmkulonbseg = km - adatok[adatok.length-1][5];
         elfogyasztott = adatok[adatok.length-1][3];
-        atlag = elfogyasztott / kmkulonbseg;
+        atlag = kmkulonbseg / elfogyasztott;
     }
     if (adatok.length > 0){
         adatok.push([ev, honap, nap, liter, forint, km, kmkulonbseg, elfogyasztott, atlag]);
@@ -125,17 +125,25 @@ function hozzaad(){
         document.getElementById("havikiadas").innerHTML += havibontas[i][0] + ". " + havibontas[i][1] + ". " + havibontas[i][2] + "L " + havibontas[i][3] + "Ft<br>";
     }
 
-    for (let i = 0; i < 1; i++){
-        for (let j = 0; j < adatok.length; j++){
-            console.log(adatok[j][8]);
-            if (Math.max(atlagok) === adatok[j][8]){
-                document.getElementById(j).style.backgroundColor = "red";
-                console.log("bement");
-            }
+    let atlagoksort = atlagok.sort(function(a, b) {return a - b;});
+    atlagoksort = [...new Set(atlagoksort)];
+
+    for (let j = 0; j < adatok.length; j++){
+        document.getElementById(j).style.backgroundColor = "";
+        if (atlagoksort[atlagoksort.length - 1] === adatok[j][8]){
+            document.getElementById(j).style.backgroundColor = "gold";
         }
-        console.log(Math.max(atlagok));
+        else if (atlagoksort[atlagoksort.length - 2] === adatok[j][8]){
+            document.getElementById(j).style.backgroundColor = "silver";
+        }        
+        else if (atlagoksort[atlagoksort.length - 3] === adatok[j][8]){
+            document.getElementById(j).style.backgroundColor = "#CD7F32";
+        }
     }
-    console.log(atlagok);
+
+    if (kmkulonbseg < 0){
+        alert("Km óra visszatekerve!");
+    }
 }
 
 function szures(){
@@ -155,7 +163,32 @@ function szures(){
                 }
             }
         }
+        if (adatok[i][0] > elejeev && adatok[i][0] < vegeev){
+            kiirando.push(adatok[i]);
+        }
+        else if (adatok[i][0] === elejeev){
+            if (adatok[i][1] > elejehonap){
+                kiirando.push(adatok[i]);
+            }
+            else if(adatok[i][1] === elejehonap){
+                if (adatok[i][2] >= elejenap){
+                    kiirando.push(adatok[i]);
+                }
+            }
+        }
+        else if (adatok[i][0] === vegeev){
+            if (adatok[i][1] < vegehonap){
+                kiirando.push(adatok[i]);
+            }
+            else if(adatok[i][1] === vegehonap){
+                if (adatok[i][2] <= vegenap){
+                    kiirando.push(adatok[i]);
+                }
+            }
+        }
+
     }
+    console.log(kiirando);
 
     document.getElementById("szures").innerHTML = "";
     for (let i = 0; i < kiirando.length; i++){
