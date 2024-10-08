@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="opt" onclick="option()">option</button>
+    <form id="form"></form>
+    <script>
+        function option()
+        {
+            let label=document.createElement("label")
+            label.innerHTML=prompt("mi legyen a label neve: ")
+            document.getElementById("form").appendChild(label)
+            
+        }
+    </script>
+</body>
+</html>
