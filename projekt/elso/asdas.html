@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        button {
+            background-color: aquamarine;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 8px;
+            margin-top: 3px;
+        }
+
+        label {
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        body {
+            background-color: bisque;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="szelesseg">Szélesség:</label>
+        <input type="number" id="szelesseg"><br>
+        <label for="magassag">Magasság:</label>
+        <input type="number" id="magassag"><br>
+    </form><br>
+
+    <button onclick="button()">Gombot</button><br>
+    <button onclick="textareaKeszit()">Textarea</button><br>
+    <button onclick="field()">Fieldset</button><br>
+    <button onclick="createSelect()">Select</button><br>
+    <button onclick="createLabel()">Label</button><br>
+    <button onclick="downloadHTML()">Download HTML</button>
+
+    <p id="szep"></p>
+
+    <script>
+        function button() {
+            let widht = document.getElementById("szelesseg").value;
+            let height = document.getElementById("magassag").value;
+            let nev = prompt("Mi legyen a szöveg a gombon?");
+            var a = 0;
+            var mousePosition;
+            var offset = [0, 0];
+            var button;
+            var isDown = false;
+
+            button = document.createElement("button");
+            button.style.position = "absolute";
+            button.setAttribute("id", "button" + a);
+            button.style.left = "0px";
+            button.style.top = "0px";
+            button.style.width = widht + "px";
+            button.style.height = height + "px";
+            button.style.padding = "1px";
+            button.style.border = "1px solid black";
+            button.style.color = "black";
+            button.innerHTML = nev;
+
+            document.body.appendChild(button);
+
+            button.addEventListener('mousedown', function (e) {
+                isDown = true;
+                offset = [
+                    button.offsetLeft - e.clientX,
+                    button.offsetTop - e.clientY
+                ];
+            }, true);
+
+            document.addEventListener('mouseup', function () {
+                isDown = false;
+            }, true);
+
+            document.addEventListener('mousemove', function (event) {
+                event.preventDefault();
+                if (isDown) {
+                    mousePosition = {
+                        x: event.clientX,
+                        y: event.clientY
+                    };
+                    button.style.left = (mousePosition.x + offset[0]) + 'px';
+                    button.style.top = (mousePosition.y + offset[1]) + 'px';
+                }
+            }, true);
+        }
+
+        function textareaKeszit() {
+            let widht1 = document.getElementById("szelesseg").value;
+            let height1 = document.getElementById("magassag").value;
+            var a = 0;
+            var mousePosition;
+            var offset = [0, 0];
+            var textarea;
+            var isDown = false;
+
+            textarea = document.createElement("textarea");
+            textarea.style.position = "absolute";
+            textarea.style.left = "0px";
+            textarea.style.top = "0px";
+            textarea.style.width = widht1 + "px";
+            textarea.style.height = height1 + "px";
+            textarea.style.border = "1px solid black";
+
+            document.body.appendChild(textarea);
+
+            textarea.addEventListener('mousedown', function (e) {
+                isDown = true;
+                offset = [
+                    textarea.offsetLeft - e.clientX,
+                    textarea.offsetTop - e.clientY
+                ];
+            }, true);
+
+            document.addEventListener('mouseup', function () {
+                isDown = false;
+            }, true);
+
+            document.addEventListener('mousemove', function (event) {
+                event.preventDefault();
+                if (isDown) {
+                    mousePosition = {
+                        x: event.clientX,
+                        y: event.clientY
+                    };
+                    textarea.style.left = (mousePosition.x + offset[0]) + 'px';
+                    textarea.style.top = (mousePosition.y + offset[1]) + 'px';
+                }
+            }, true);
+        }
+
+        function field() {
+            let width = document.getElementById("szelesseg").value;
+            let height = document.getElementById("magassag").value;
+            let iras = prompt("Írj valamit: ");
+            var a = 0;
+            var mousePosition;
+            var offset = [0, 0];
+            var fieldset;
+            var isDown = false;
+
+            fieldset = document.createElement("fieldset");
+            fieldset.style.position = "absolute";
+            fieldset.setAttribute("id", "fieldset" + a);
+            fieldset.style.left = "0px";
+            fieldset.style.top = "0px";
+            fieldset.style.width = width + "px";
+            fieldset.style.height = height + "px";
+            fieldset.style.color = "black";
+            fieldset.textContent = iras;
+
+            document.body.appendChild(fieldset);
+
+            fieldset.addEventListener('mousedown', function (e) {
+                isDown = true;
+                offset = [
+                    fieldset.offsetLeft - e.clientX,
+                    fieldset.offsetTop - e.clientY
+                ];
+            }, true);
+
+            document.addEventListener('mouseup', function () {
+                isDown = false;
+            }, true);
+
+            document.addEventListener('mousemove', function (event) {
+                event.preventDefault();
+                if (isDown) {
+                    mousePosition = {
+                        x: event.clientX,
+                        y: event.clientY
+                    };
+                    fieldset.style.left = (mousePosition.x + offset[0]) + 'px';
+                    fieldset.style.top = (mousePosition.y + offset[1]) + 'px';
+                }
+            }, true);
+        }
+
+        function createSelect() {
+            let width = document.getElementById("szelesseg").value;
+            let height = document.getElementById("magassag").value;
+            let labelText = prompt("Mi legyen az első opció szövege?");
+            let select = document.createElement("select");
+
+
+            let firstOption = document.createElement("option");
+            firstOption.value = labelText;
+            firstOption.text = labelText;
+            select.appendChild(firstOption);
+
+            let option1 = document.createElement("option");
+            option1.value = "option1";
+            option1.text = "Option 1";
+            let option2 = document.createElement("option");
+            option2.value = "option2";
+            option2.text = "Option 2";
+            let option3 = document.createElement("option");
+            option3.value = "option3";
+            option3.text = "Option 3";
+
+            select.appendChild(option1);
+            select.appendChild(option2);
+            select.appendChild(option3);
+
+            select.style.position = "absolute";
+            select.style.left = "0px";
+            select.style.top = "0px";
+            select.style.width = width + "px";
+            select.style.height = height + "px";
+            select.id = "select" + Date.now();
+
+            document.body.appendChild(select);
+
+            makeDraggable(select);
+        }
+
+        function createLabel() {
+            let labelText = prompt("Mi legyen a label szövege?");
+            let label = document.createElement("label");
+            label.innerHTML = labelText;
+            label.style.position = "absolute";
+            label.style.left = "0px";
+            label.style.top = "0px";
+            label.style.color = "black";
+
+            document.body.appendChild(label);
+
+            makeDraggable(label);
+        }
+
+        function makeDraggable(element) {
+            let mousePosition;
+            let offset = [0, 0];
+            let isDown = false;
+
+            element.addEventListener('mousedown', function (e) {
+                isDown = true;
+                offset = [
+                    element.offsetLeft - e.clientX,
+                    element.offsetTop - e.clientY
+                ];
+            }, true);
+
+            document.addEventListener('mouseup', function () {
+                isDown = false;
+            }, true);
+
+            document.addEventListener('mousemove', function (e) {
+                e.preventDefault();
+                if (isDown) {
+                    mousePosition = {
+                        x: e.clientX,
+                        y: e.clientY
+                    };
+                    element.style.left = (mousePosition.x + offset[0]) + 'px';
+                    element.style.top = (mousePosition.y + offset[1]) + 'px';
+                }
+            }, true);
+        }
+        function downloadHTML() {
+            const htmlContent = document.documentElement.outerHTML;
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'interactive_page.html';
+            link.click();
+        }
+
+    </script>
+</body>
+
+</html>

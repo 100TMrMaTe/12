@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|d:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F082C6F5-1996-454E-9270-CD90C28D51D3}|beadando\\beadando.csproj|solutionrelative:beadando\\window3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window2.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window2.xaml.cs",
+              "RelativeDocumentMoniker": "beadando\\Window2.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window2.xaml.cs",
+              "RelativeToolTip": "beadando\\Window2.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:18:59.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Window3.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window3.xaml",
+              "RelativeDocumentMoniker": "beadando\\Window3.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window3.xaml",
+              "RelativeToolTip": "beadando\\Window3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T13:17:52.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window2.xaml",
+              "RelativeDocumentMoniker": "beadando\\Window2.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window2.xaml",
+              "RelativeToolTip": "beadando\\Window2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T13:17:45.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "beadando\\Window1.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window1.xaml.cs",
+              "RelativeToolTip": "beadando\\Window1.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwB8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:06:35.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window1.xaml",
+              "RelativeDocumentMoniker": "beadando\\Window1.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\Window1.xaml",
+              "RelativeToolTip": "beadando\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T13:00:25.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "beadando\\MainWindow.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\MainWindow.xaml",
+              "RelativeToolTip": "beadando\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T12:38:39.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "beadando\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\konyhasimate\\12\\asztali\\beadando\\beadando\\beadando\\MainWindow.xaml.cs",
+              "RelativeToolTip": "beadando\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvzcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:38:37.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
