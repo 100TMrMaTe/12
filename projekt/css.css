@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+
+}
+
+#left, #right {
+    flex: 1;
+    display: flex;
+    color: white;
+    font-size: 24px;
+}
+
+#left {
+    background-color:antiquewhite;
+    border-right: 1px solid black;
+}
+
+#right {
+      background-image:url("aula1.PNG") ;
+      background-repeat: no-repeat;
+      background-color:antiquewhite;
+}
+label{
+    color: black !important; 
+    margin-left: 10px;
+}
+input
+{
+    padding: 5px;
+    margin-left: 10px;
+}
+td{
+    border: 2px solid black;
+    width: 13px;
+    height: 13px;
+}
+button
+{
+    width: 100px !important;
+    height: 50px !important;
+    
+}
+p{
+    color: black;
+}
