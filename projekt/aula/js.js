@@ -1,4 +1,7 @@
 function tablazat() {
+
+var a =0;
+
   let sor = document.getElementById("sor").value;
   let oszlop = document.getElementById("oszlop").value;
   let table = document.createElement("table");
@@ -10,6 +13,7 @@ function tablazat() {
     for (let j = 0; j < oszlop; j++) {
       let td = document.createElement("td");
       tr.appendChild(td);
+      a++;
     }
     table.appendChild(tr);
   }
@@ -19,6 +23,8 @@ function tablazat() {
 
   // Append table to the page
   document.getElementById("left").appendChild(table);
+  console.log(document.getElementById("szekek_szama").value)
+  document.getElementById("szekek_szama").value+= a;
 }
 
 function makeTableDraggable(table) {

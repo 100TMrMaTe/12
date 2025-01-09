@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     font-size: 24px;
     font-family: Arial, sans-serif;
 }
@@ -20,10 +20,11 @@ body {
 }
 
 #right {
-      background-image:url("aula1.PNG") ;
+      background-image:url("aula1.PNG");
+      background-color:antiquewhite;
+      background-repeat: no-repeat;
 }
 label{
-    margin-left: -450px;
     color: black !important; 
 }
 input
