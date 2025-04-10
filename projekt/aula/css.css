@@ -15,7 +15,7 @@ body {
 }
 
 #left {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     border-right: 1px solid black;
 }
 
@@ -25,14 +25,35 @@ body {
       background-repeat: no-repeat;
 }
 label{
+    background-image: url("aula1.PNG");
+    background-repeat: no-repeat;
+}
+
+label {
+    margin-left: -450px;
     color: black !important; 
 }
-input
-{
+
+input {
     padding: 5px;
 }
-td{
+
+td {
     border: 2px solid black;
     width: 13px;
     height: 13px;
+}
+
+#counter {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }

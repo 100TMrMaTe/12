@@ -1,38 +1,45 @@
+let s = 0;
+
 function tablazat() {
-
-var a =0;
-
   let sor = document.getElementById("sor").value;
   let oszlop = document.getElementById("oszlop").value;
   let table = document.createElement("table");
   table.setAttribute("id", "table");
 
+  let a = 0;
+  // Create table rows and columns
   for (let i = 0; i < sor; i++) {
     let tr = document.createElement("tr");
     for (let j = 0; j < oszlop; j++) {
       let td = document.createElement("td");
-      tr.appendChild(td);
       a++;
+      tr.appendChild(td);
     }
     table.appendChild(tr);
   }
-
-  updateCounter(sor * oszlop);
-
+  s+=a;
+  document.getElementById("ossz").innerText =s
+  // Make the table draggable
   makeTableDraggable(table);
-  makeTableDeletable(table);
+  table.addEventListener("dblclick", function(){
+    this.remove()
+    s-=a;
+    document.getElementById("ossz").innerText =s
+  });
+  
 
+  // Append table to the page
   document.getElementById("left").appendChild(table);
-  console.log(document.getElementById("szekek_szama").value)
-  document.getElementById("szekek_szama").value+= a;
 }
+
 
 function makeTableDraggable(table) {
   let isDragging = false;
   let offsetX, offsetY;
 
-  table.style.position = 'absolute';
+  table.style.position = 'absolute'; // Make sure the table is positioned absolutely
 
+  // Mouse down event to start dragging
   table.addEventListener('mousedown', function (e) {
     isDragging = true;
     offsetX = e.clientX - table.offsetLeft;
@@ -40,6 +47,7 @@ function makeTableDraggable(table) {
     table.style.cursor = 'move';
   });
 
+  // Mouse move event to move the table
   document.addEventListener('mousemove', function (e) {
     if (isDragging) {
       table.style.left = e.clientX - offsetX + 'px';
@@ -47,29 +55,14 @@ function makeTableDraggable(table) {
     }
   });
 
+  // Mouse up event to stop dragging
   document.addEventListener('mouseup', function () {
     isDragging = false;
     table.style.cursor = 'default';
   });
 }
 
-function makeTableDeletable(table) {
-  table.addEventListener('dblclick', function () {
-    let tdCount = table.getElementsByTagName('td').length;
-    updateCounter(-tdCount);
-    table.remove();
-  });
-}
 
-function updateCounter(change) {
-  let counter = document.getElementById("counter");
-  let currentCount = parseInt(counter.textContent, 10);
-  counter.textContent = currentCount + change;
-}
 
-document.addEventListener('DOMContentLoaded', function () {
-  let counterElement = document.createElement("div");
-  counterElement.setAttribute("id", "counter");
-  counterElement.textContent = "0";
-  document.body.appendChild(counterElement);
-});
+
+
